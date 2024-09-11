@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css">
+  <link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header class="d-flex justify-content-start">
+    <h1>About & Contact</h1>
+  </header>
+  <main>
+    <section class="d-flex justify-content-start flex-column">
+      <div id="div">
+        <button id="showContact">Contact</button>
+      </div>
+      <div id="div">
+        <p>My Name is Timothy Serrano, and I would love to present the many things I do. A few years ago I started programming originally starting with Python. Since then i've branched into many different languages and frameworks and I have found myself most intruiged by web development. I am hard working and have a deep knowledge of languages that are lower level like C to scripting languages like HTML, CSS and JS. I am eager to work and continue to hone my skillset.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="customAlert" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Email: <span id="email"><button onclick="sendEmail()">examplemail@.com</button></span></p>
+          <p>Phone: <span id="phone"><button onclick="makeCall()">123-456-7890</button></span></p>
+          <p>Hours Typically Active: 9AM-8PM Mon-Sat</p>
+      </div>
+  </div>
+  <script src="script1.js" defer></script>
+</body>
+</html>
