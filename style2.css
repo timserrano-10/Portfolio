@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: #E0F1F4;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+header{
+  margin: 100px 0px 0px 35px;
+}
+
+h1{
+  font-size: 150px;
+  letter-spacing: -3px;
+}
+
+#div{
+  width: 50%;
+  margin: 20px 0px 0px 35px;
+}
+
+p{
+  font-size: 20px;
+}
+
+img{
+  width: 400px;
+  height: 350px;
+}
+
+#div2{
+  margin-right: 0px;
+}
+
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px; 
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 15px;
+  }
+  #div{
+    width: 50%;
+    margin: 10px 0px 0px 20px;
+  }
+  h1{
+    font-size: 50px;
+    letter-spacing: -3px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h1{
+    font-size: 100px;
+    letter-spacing: -3px;
+  }
+}

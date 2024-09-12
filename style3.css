@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Slab:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+body{
+  background-color: #E0F1F4;
+  overflow-x: hidden;
+}
+
+.btn-col{
+  background-color: #63A46C;
+}
+
+h1{
+  font-family: "DM Sans", sans-serif;
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+h5{
+  font-family: "DM Sans", sans-serif;
+}
+
+p, a{
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.img{
+  height: 300px;
+}
+
+.card-size{
+  height: 640px;
+}
+
+.card-marg{
+  margin-left: 30px;
+}
+
+.card-marg2{
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1800px) {
+  .card-marg{
+    margin-left: 40px;
+  }
+
+  .card-marg2{
+    margin-right: 15px;
+  }
+}
