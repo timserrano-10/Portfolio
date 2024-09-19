@@ -19,7 +19,7 @@ window.addEventListener('click', function(event) {
 
 // function automatically opens and fills in users email
 function sendEmail() {
-  const email = "example@example.com";
+  const email = "timsbusiness99@gmail.com";
   const subject = "Subject Here";
   const body = "Body content here";
 
@@ -33,7 +33,7 @@ function sendEmail() {
 
 //function calls phone number-may only work on mobile devices or devices with a call function
 function makeCall() {
-  const phoneNumber = "+1234567890";
+  const phoneNumber = "5623861542";
 
   const telLink = `tel:${phoneNumber}`;
 
